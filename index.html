@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moja strona domowa</title>
+    <link href="./normalize.css" rel="stylesheet" type="text/css" />
+    <link href="./style.css" rel="stylesheet" type="text/css" />
+    
+</head>
+<body>
+    <!-- Tutaj wrzucamy treść strony -->
+    <header class="head">
+        <h1 class="head__title">Strona domowa Adama</h1>
+        <nav class="head__menu">
+            <ul class="menu">
+                <li class="menu__item">
+                    <a class="menu__link" href="./index.html">Strona główna</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="#articles">Artykuły</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="./podstrona.html">Podstrona</a>
+                </li>
+            </ul>
+        </nav>  
+    </header>
+    
+    <main class="main" id="top">
+        <section class="hero hero__adamKowalski hero--js">
+
+            <h2 class="hero__name">Witaj świecie!</h2>
+            <img class="hero__image" src="./img/hero.jpg" alt="Moje zdjęcie. Chłopak w szarej koszulce i blond włosach.">
+            <p class="hero__description">Jestem studentem II roku informatyki na Politechnice Warszawskiej. Specjalizuję się w Sztucznej Inteligencji. W wolnej chwili moją pasją jest podróżowanie oraz fotografia.</p>
+    
+            <section class="heroList">
+                <h3 class="heroList__title">Lista moich ulubionych gier:</h3>
+                <ol class="heroList__list">
+                    <li class="heroList__item">Minecraft</li>
+                    <li class="heroList__item">Fifa 2023</li>
+                    <li class="heroList__item">GTA 5</li>
+                    <li class="heroList__item">Wiedźmin 3</li>
+                </ol>
+            </section>
+            <section class="heroList">
+                <h3 class="heroList__title">Lista ulubionych stron:</h3>
+                <ul class="heroList__list">
+                    <li class="heroList__item">
+                        <a class="heroList__link" href="https://www.google.com">Wyszukiwarka internetowa!</a>
+                    </li>
+                    <li class="heroList__item">
+                        <a class="heroList__link" href="https://unsplash.com" target="_blank">Strona ze zdjęciami.</a>
+                    </li>
+                    <li class="heroList__item">
+                        <a class="heroList__link" href="https://codepen.io" target="_blank">Strona Codepen.</a>
+                    </li>
+                </ul>
+            </section>
+        </section>
+        <section id="articles" class="blog">
+            <acrticle class="article">
+                <h2 class="article__title">Pierwsza sekcja tekstowa</h2>
+                    <p class="article__paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. <b>Donec fringilla porta ipsum</b>, sed cursus urna tristique nec. Suspendisse tristique lacus quis rutrum aliquam. <i>Pellentesque sed elit quis</i> urna condimentum auctor tincidunt at turpis. Maecenas ac pharetra lorem. <u>Sed quis pharetra metus.</u> Suspendisse sodales risus urna, vitae pulvinar elit faucibus ut. <s>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce non erat ligula.</s> Etiam ac mauris sed mi rhoncus mattis. Phasellus nec auctor sapien. Nulla sit amet nunc ullamcorper, suscipit felis ac, pellentesque sem. Sed nec porttitor urna, at pulvinar eros. Aliquam non eros vitae lectus luctus maximus sit amet a diam.</p>
+                    <p class="article__paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. <b>Donec fringilla porta ipsum</b>, sed cursus urna tristique nec. Suspendisse tristique lacus quis rutrum aliquam. <i>Pellentesque sed elit quis</i> urna condimentum auctor tincidunt at turpis. Maecenas ac pharetra lorem. <u>Sed quis pharetra metus.</u> Suspendisse sodales risus urna, vitae pulvinar elit faucibus ut. <s>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce non erat ligula.</s> Etiam ac mauris sed mi rhoncus mattis. Phasellus nec auctor sapien. Nulla sit amet nunc ullamcorper, suscipit felis ac, pellentesque sem. Sed nec porttitor urna, at pulvinar eros. Aliquam non eros vitae lectus luctus maximus sit amet a diam.</p>
+                    <p class="article__paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. <b>Donec fringilla porta ipsum</b>, sed cursus urna tristique nec. Suspendisse tristique lacus quis rutrum aliquam. <i>Pellentesque sed elit quis</i> urna condimentum auctor tincidunt at turpis. Maecenas ac pharetra lorem. <u>Sed quis pharetra metus.</u> Suspendisse sodales risus urna, vitae pulvinar elit faucibus ut. <s>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce non erat ligula.</s> Etiam ac mauris sed mi rhoncus mattis. Phasellus nec auctor sapien. Nulla sit amet nunc ullamcorper, suscipit felis ac, pellentesque sem. Sed nec porttitor urna, at pulvinar eros. Aliquam non eros vitae lectus luctus maximus sit amet a diam.</p>
+            </acrticle>
+            <article class="article">
+                <h2 class="article__title">Druga sekcja tekstowa</h2>
+                    <p class="article__paragraph">Donec et lectus nunc. Proin mattis laoreet magna, non vestibulum elit consectetur vitae. Sed at aliquet nisl. Aliquam sit amet ipsum commodo, maximus ipsum ut, efficitur nibh. Vestibulum auctor vel dolor a pretium. Fusce a posuere massa. Phasellus fringilla velit nulla, vel venenatis nisl porttitor congue. Nam fringilla vehicula aliquam. Suspendisse potenti. Aliquam quis tortor magna. Donec neque tortor, iaculis eu ornare ut, ultricies non metus. Nulla consectetur justo eget sagittis scelerisque. Fusce rutrum sollicitudin scelerisque. Phasellus eu malesuada quam.</p>
+                    <p class="article__paragraph">Donec et lectus nunc. Proin mattis laoreet magna, non vestibulum elit consectetur vitae. Sed at aliquet nisl. Aliquam sit amet ipsum commodo, maximus ipsum ut, efficitur nibh. Vestibulum auctor vel dolor a pretium. Fusce a posuere massa. Phasellus fringilla velit nulla, vel venenatis nisl porttitor congue. Nam fringilla vehicula aliquam. Suspendisse potenti. Aliquam quis tortor magna. Donec neque tortor, iaculis eu ornare ut, ultricies non metus. Nulla consectetur justo eget sagittis scelerisque. Fusce rutrum sollicitudin scelerisque. Phasellus eu malesuada quam.</p>
+                    <p class="article__paragraph">Donec et lectus nunc. Proin mattis laoreet magna, non vestibulum elit consectetur vitae. Sed at aliquet nisl. Aliquam sit amet ipsum commodo, maximus ipsum ut, efficitur nibh. Vestibulum auctor vel dolor a pretium. Fusce a posuere massa. Phasellus fringilla velit nulla, vel venenatis nisl porttitor congue. Nam fringilla vehicula aliquam. Suspendisse potenti. Aliquam quis tortor magna. Donec neque tortor, iaculis eu ornare ut, ultricies non metus. Nulla consectetur justo eget sagittis scelerisque. Fusce rutrum sollicitudin scelerisque. Phasellus eu malesuada quam.</p>
+                    <p class="article__paragraph">Donec et lectus nunc. Proin mattis laoreet magna, non vestibulum elit consectetur vitae. Sed at aliquet nisl. Aliquam sit amet ipsum commodo, maximus ipsum ut, efficitur nibh. Vestibulum auctor vel dolor a pretium. Fusce a posuere massa. Phasellus fringilla velit nulla, vel venenatis nisl porttitor congue. Nam fringilla vehicula aliquam. Suspendisse potenti. Aliquam quis tortor magna. Donec neque tortor, iaculis eu ornare ut, ultricies non metus. Nulla consectetur justo eget sagittis scelerisque. Fusce rutrum sollicitudin scelerisque. Phasellus eu malesuada quam.</p>
+                    <p class="article__paragraph">Donec et lectus nunc. Proin mattis laoreet magna, non vestibulum elit consectetur vitae. Sed at aliquet nisl. Aliquam sit amet ipsum commodo, maximus ipsum ut, efficitur nibh. Vestibulum auctor vel dolor a pretium. Fusce a posuere massa. Phasellus fringilla velit nulla, vel venenatis nisl porttitor congue. Nam fringilla vehicula aliquam. Suspendisse potenti. Aliquam quis tortor magna. Donec neque tortor, iaculis eu ornare ut, ultricies non metus. Nulla consectetur justo eget sagittis scelerisque. Fusce rutrum sollicitudin scelerisque. Phasellus eu malesuada quam.</p>    
+            </article>
+        </section>
+    </main>
+    <footer class="footer">
+        <a class="footer__top" href="#top">UP</a>
+        <p class="footer__paragraph">Autor strony: Adam Kowalski 2023</p>
+    </footer>
+</body>
+</html>
